@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha um tema</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <h1>Escolha a fruta</h1>
+    <div>
+        <label for="themeSelector">Selecione a fruta:</label>
+        <select id="themeSelector">
+            <option value="morango">Morango</option> 
+            <option value="uva">Uva</option>
+            <option value="maca">Maçã</option>
+            <option value="laranja">Laranja</option>
+            <option value="manga">Manga</option>
+            <option value="pera">Pera</option>
+        </select>
+        <button onclick="changeTheme()">Definir fruta</button>
+    </div>
+    <div id="content">
+        <p>Bem-vindo ao site! Escolha uma fruta acima</p>
+    </div>
+
+    <div class="imagemfrutas">
+        <img src="imagemfrutas.png">
+    </div>
+    
+</body>
+</html>

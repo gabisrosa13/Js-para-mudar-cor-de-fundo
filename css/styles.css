@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: paleturquoise;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.fruta-morango {
+    background-color: rgb(244, 19, 150);
+    color: #fff;
+}
+
+.fruta-uva {
+    background-color: purple;
+    color: #fff;
+}
+
+.fruta-maca {
+    background-color: red;
+    color: #fff;
+}
+
+.fruta-laranja {
+    background-color: orange;
+    color: #000;
+}
+
+.fruta-manga {
+    background-color: #fffb0b;
+    color: #000;
+}
+
+.fruta-pera {
+    background-color: #13c406;
+    color: #fff;
+}
+
+.fruta h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.imagemfrutas {
+    position: absolute;
+    top: 200;
+    right: 20px;
+}
+
+.imagemfrutas img {
+    width: 300px;  /* Ajustando o tamanho da imagem para 20px */
+    height: 250px; /* Ajustando o tamanho da imagem para 20px */
+}
+
